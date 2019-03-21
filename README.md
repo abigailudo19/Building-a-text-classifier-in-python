@@ -1,3 +1,5 @@
+
+
 # Building-a-text-classifier-in-python
 #Building a text classifier in python
 #1 Include the following lines in a new Python file to add datasets
@@ -49,3 +51,16 @@ for sentence, category in zip(input_content, categories_prediction):
 #cwd
 #The below would quickly tell you if its saved 
 #os.path.exists('xxxxxxxxxx')
+
+##########
+
+#to save the file in your current location
+def Files_in_folder(path):
+    items_in_folder_list=list()  
+    items = os.listdir(path)
+    
+    return items
+    
+File_list=Files_in_folder("put yourfile path here xxxfetch_20newsgroups")
+ 
+#print(File_list)
